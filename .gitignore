@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# MacOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# LangChain / embeddings / vector DBs
+chroma/
+*.db
+*.sqlite3
+
+# Ollama / model cache (optional)
+*.bin
+*.gguf
+
+# Temporary files
+*.tmp
+*.temp
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Node (if you add React frontend later)
+node_modules/
+dist/
+
+UvicClasses/
