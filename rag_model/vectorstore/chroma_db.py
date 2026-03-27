@@ -16,5 +16,8 @@ def initialize_vectorstore(vectorstore, doc_chunks):
         for i in range(0, len(doc_chunks), batch_size):
             batch = doc_chunks[i:i + batch_size]
             vectorstore.add_documents(batch)
+            
+        print("Done creating embeddings...")
+        
     else:
         print("Using existing embeddings")
