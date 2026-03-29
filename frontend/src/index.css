@@ -1,0 +1,12 @@
+:root {
+  --bg-main: #0d0d0d;
+  --bg-sidebar: #202123;
+  --bg-input: #2a2b32;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}

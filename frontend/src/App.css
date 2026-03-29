@@ -1,0 +1,11 @@
+.mainpage{
+  display: flex;
+  flex-direction: row;
+  background-color: yellow;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+

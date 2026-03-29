@@ -1,0 +1,56 @@
+.chatpage{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    background-color: var(--bg-main);
+    align-items: center;
+}
+
+.modelRow{
+    display: flex;
+    padding: 15px 15px;
+}
+
+.modelRow p {
+    font-size: 25px;
+}
+
+.inputBar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    background-color: #2a2a2a;
+    justify-content: ;
+    width: 70%;
+}
+
+.inputBar input[type="text"] {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+}
+
+.uploadBtn {
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.inputBar button {
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.inputBar input::placeholder {
+    color: #aaa;
+}
